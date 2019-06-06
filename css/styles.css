@@ -1,0 +1,11 @@
+.jumbotron {
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: auto;
+    margin: 4px;
+}
+.equilateral-triangle, .isosceles-triangle, .scalene-triangle, .no-triangle {
+    display: none;
+}

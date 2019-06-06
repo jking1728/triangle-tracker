@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Triangle Tracker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Let's make a triangle!</h1>
+        </div>
+        <form class="form-inline" id="triangle">
+            <div class="form-group">
+                <label for="input1">Side 1</label>
+                <input type="number" class="form-control" id="input1" placeholder="side 1 size" required>
+            </div>
+            <div class="form-group">
+                <label for="input2">Side 2</label>
+                <input type="number" class="form-control" id="input2" placeholder="side 2 size" required>
+            </div>
+            <div class="form-group">
+                <label for="input3">Side 3</label>
+                <input type="number" class="form-control" id="input3" placeholder="side 3 size" required>
+            </div>
+            <button type="submit" class="btn btn-danger">What kind of triangle?</button>
+        </form>
+        <div class="equilateral-triangle">
+            <img src="media/equilateral_triangle.png" alt="example picture of equilateral triangle">
+            <p>equilateral triangles have 3 equal sides!</p>
+        </div>
+        <div class="isosceles-triangle">
+            <img src="media/Triangle-isosceles.png" alt="example picture of isosceles triangle">
+            <p>Isosceles triangles have 2 equal sides!</p>
+        </div>
+        <div class="scalene-triangle">
+            <img src="media/scalene-triangle.png" alt="example picture of scalene triangle">
+            <p>Scalene triangles have no equal sides!</p>
+        </div>
+        <div class="no-triangle">
+            <p>NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side.</p>
+        </div>
+    </div>    
+</body>
+</html>
